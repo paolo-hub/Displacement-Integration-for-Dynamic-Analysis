@@ -7,7 +7,7 @@ This Python script allows for the integration of an accelerogram to obtain the t
 ## Table of contents
 * [Description](#description)
 * [Usage](#usage)
-* [A pratical exemple](#a_pratical_exemple)
+* [Exemple](#exemple)
 
   
 ## Description
@@ -18,4 +18,4 @@ In dynamic structural analyses, a very dense sampling of the accelerogram is typ
 
 Txt
 
-## A practical example
+## Example
