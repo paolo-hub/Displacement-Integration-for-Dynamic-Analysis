@@ -6,6 +6,7 @@ This Python script allows for the integration of an accelerogram to obtain the t
 
 ## Table of contents
 * [Description](#description)
+* [Usage](#usage)
 
   
 ## Description
