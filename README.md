@@ -19,3 +19,5 @@ In dynamic structural analyses, a very dense sampling of the accelerogram is typ
 Txt
 
 ## Example
+
+Txt
