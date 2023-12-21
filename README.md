@@ -53,8 +53,9 @@ Subsequently, the integration is performed using the Wilson algorithm with an in
 
 This is a classic example of creating a temporal history of displacements to perform a finite element dynamic analysis.
 
-This example is set up in the script Example1.py, 
-At the beginning of the file, the necessary functions are imported:
+This example is set up in the script Example1.py.
+
+At the beginning of the file _Exemple1.py_, the necessary functions are imported:
 ```
 from integrate_module import integrate_wilson, baseline
 ```
@@ -75,6 +76,12 @@ The output of the script is shown in the following figure, the numerical values 
 
 ![alt text](https://github.com/paolo-hub/Displacement-Integration-for-Dynamic-Analysis/blob/main/Example%201/Example1-Graphical%20output.jpg?raw=true)
 
+The displacement history is then compared with the one determined using the finite element software SAP2000.
+The integration performed through SAP2000 has the same integration step of 1/1000, and the integration algorithm used is the Newmark method.
+The result of the comparison is shown in the following figure.
 
+![alt text](https://raw.githubusercontent.com/paolo-hub/Displacement-Integration-for-Dynamic-Analysis/main/Example%201/Example1-SAP2000%20Comparison.jpg)
+
+To assess the discrepancy between the two temporal displacement histories, the root-mean-square error (RMSE) was calculated, resulting in 0.014%, indicating an excellent agreement between the two solutions.
 
 ### Example 2
