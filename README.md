@@ -73,7 +73,7 @@ dt = 0.001
 
 The output of the script is shown in the following figure, the numerical values of the temporal displacement history are saved in the CSV file named _displacement_record.csv_.
 
-![alt text](https://github.com/paolo-hub/Home-Assistant-Backup-Manager/blob/main/images/Full%20Backup%20Settings.jpg)
+![alt text](https://github.com/paolo-hub/Displacement-Integration-for-Dynamic-Analysis/blob/main/Example%201/Example1-Graphical%20output.jpg?raw=true)
 
 
 
