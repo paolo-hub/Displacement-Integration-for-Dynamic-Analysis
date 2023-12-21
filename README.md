@@ -45,7 +45,36 @@ Two examples have been developed to test the script, which also serve as a refer
 
 ## Examples
 
-### Exemple 1
+### Example 1
+
+The first example involves the integration of a seismic accelerogram spectrum-compatible generated using the Simqke algorithm developed at Berkeley. The accelerogram has a sampling interval of 1/100 of a second and a total duration of 30 seconds.
+
+Subsequently, the integration is performed using the Wilson algorithm with an integration step of 1/1000 seconds. The result is compared with an integration executed through the finite element analysis software SAP2000 from CSI.
+
+This is a classic example of creating a temporal history of displacements to perform a finite element dynamic analysis.
+
+This example is set up in the script Example1.py, 
+At the beginning of the file, the necessary functions are imported:
+```
+from integrate_module import integrate_wilson, baseline
+```
+And the parameters for integration are set:
+```
+Define the file path containing the accelerogram
+file_path = 'seismic_accelerogram.txt'
+
+Set the initial conditions:
+y0 = 0  # Displacement
+v0 = 0  # Velocity
+
+Set the desired time step for the output
+dt = 0.001
+```
+
+The output of the script is shown in the following figure, the numerical values of the temporal displacement history are saved in the CSV file named _displacement_record.csv_.
+
+![alt text](https://github.com/paolo-hub/Home-Assistant-Backup-Manager/blob/main/images/Full%20Backup%20Settings.jpg)
 
 
-### Exemple 2
+
+### Example 2
