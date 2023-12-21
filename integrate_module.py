@@ -9,7 +9,10 @@ The following is a list of the functions included in the module:
     * integrate_rk4: Integrate an accelerogram using the fourth-order Runge-Kutta method to determine the history of velocity and displacements
                      based on boundary conditions.
     * baseline: Performs a baseline function that linearly corrects the passed function while preserving the initial conditions.
-
+MANTAINED:
+https://github.com/paolo-hub/Displacement-Integration-for-Dynamic-Analysis
+REVISION:
+    * 1.0: First realise
 '''
 
 import numpy as np
