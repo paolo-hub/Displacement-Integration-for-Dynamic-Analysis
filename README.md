@@ -18,6 +18,7 @@ It is also possible to specify initial boundary conditions in terms of displacem
 This script allows performing integration using two methods:
  * Wilson algorithm
  * Fourth-order Runge-Kutta algorithm
+
 Additionally, it performs a linear baseline correction
 
 Temporal displacement histories are used for various purposes in structural engineering, such as seismic analyses that consider the effect of seismic motion propagation, typically in bridges. Other examples include analyses of moving components within the structure.
