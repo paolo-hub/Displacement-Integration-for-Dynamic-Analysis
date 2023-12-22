@@ -95,6 +95,7 @@ The displacement history obtained from Orcaflex is compared to that derived from
 
 The temporal history presents an initial condition of acceleration, velocity, and displacement that are not equal to zero.
 The accelerogram is passed to the script as is, and initial conditions of velocity and displacement are set.
+The time step for the displacement history remains the same as that of the accelerogram, allowing for a more precise comparison with the displacement history derived from the Orcaflex analysis.
 For this example, the Runge-Kutta integration algorithm is used.
 
 This example is set up in the script _Example2.py_.
