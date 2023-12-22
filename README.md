@@ -86,4 +86,10 @@ To assess the discrepancy between the two temporal displacement histories, the r
 
 ### Example 2
 
-AAAA
+This second example demonstrates the integration of an accelerogram derived from a dynamic analysis of a moored ship subjected to wind and waves, performed using Orcaflex.
+It considers an acceleration history due to the sway of the ship.
+For this simulation, both the acceleration and displacement histories are available, sampled at 1/100 seconds and lasting 340 seconds.
+The displacement history obtained from Orcaflex is compared to that derived from double integration executed with the script.
+The temporal history presents an initial condition of acceleration, velocity, and displacement that are not equal to zero.
+The accelerogram is passed to the script as is, and initial conditions of velocity and displacement are set.
+For this example, the Runge-Kutta integration algorithm is used.
