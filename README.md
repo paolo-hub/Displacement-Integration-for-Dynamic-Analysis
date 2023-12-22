@@ -131,3 +131,14 @@ v0 = 0.0176782812923192 # Velocity
 Set the desired time step for the output
 dt = 0.01
 ```
+
+The output of the script is shown in the following figure, the numerical values of the temporal displacement history are saved in the CSV file named _displacement_record.csv_.
+
+![alt text](https://raw.githubusercontent.com/paolo-hub/Displacement-Integration-for-Dynamic-Analysis/main/Example%202/Example2-Graphical%20output.jpg)
+
+The temporal history of displacements has been compared with that derived from the dynamic analysis conducted using Orcaflex.
+The result of the comparison is shown in the following figure.
+
+![alt text](https://raw.githubusercontent.com/paolo-hub/Displacement-Integration-for-Dynamic-Analysis/main/Example%202/Example2-Mooring%20Dynamic%20Comparison.jpg)
+
+To assess the discrepancy between the two temporal displacement histories, the root-mean-square error (RMSE) was calculated, resulting in 0.227%, indicating an excellent agreement between the two solutions.
