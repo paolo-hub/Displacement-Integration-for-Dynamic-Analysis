@@ -98,7 +98,7 @@ The result of the comparison is shown in the following figure.
 
 ![alt text](https://raw.githubusercontent.com/paolo-hub/Displacement-Integration-for-Dynamic-Analysis/main/Example%201/Example1-SAP2000%20Comparison.jpg)
 
-To assess the discrepancy between the two temporal displacement histories, the root-mean-square error (RMSE) was calculated, resulting in 0.014%, indicating an excellent agreement between the two solutions.
+To assess the discrepancy between the two temporal displacement histories, the root-mean-square error (RMSE) was calculated, resulting in **0.014%**, indicating an excellent agreement between the two solutions.
 
 ### Example 2
 
@@ -142,4 +142,4 @@ The result of the comparison is shown in the following figure.
 
 ![alt text](https://raw.githubusercontent.com/paolo-hub/Displacement-Integration-for-Dynamic-Analysis/main/Example%202/Example2-Mooring%20Dynamic%20Comparison.jpg)
 
-To assess the discrepancy between the two temporal displacement histories, the root-mean-square error (RMSE) was calculated, resulting in 0.227%, indicating an excellent agreement between the two solutions.
+To assess the discrepancy between the two temporal displacement histories, the root-mean-square error (RMSE) was calculated, resulting in **0.227%**, indicating an excellent agreement between the two solutions.
