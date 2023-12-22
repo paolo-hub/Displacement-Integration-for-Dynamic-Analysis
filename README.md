@@ -9,7 +9,7 @@ This Python script allows for the integration of an accelerogram to obtain the t
 * [Dependencies](#dependencies)
 * [Usage](#usage)
 * [Examples](#examples)
-* [Conclusions & Remarks](#conclusions_&_Remarks)
+* [Conclusion & Remarks](#conclusions_&_remarks)
 
   
 ## Description
