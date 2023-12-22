@@ -9,7 +9,7 @@ This Python script allows for the integration of an accelerogram to obtain the t
 * [Dependencies](#dependencies)
 * [Usage](#usage)
 * [Examples](#examples)
-* [Conclusion & Remarks](#conclusions_&_remarks)
+* [Remarks](#remarks)
 
   
 ## Description
@@ -145,7 +145,7 @@ The result of the comparison is shown in the following figure.
 
 To assess the discrepancy between the two temporal displacement histories, the root-mean-square error (RMSE) was calculated, resulting in **0.227%**, indicating an excellent agreement between the two solutions.
 
-### Conclusions & Remarks
+### Remarks
 
 I am posting this script on GitHub as a personal backup and for anyone who intends to use it.
 I want to clarify that I am not responsible in any way for the usage or the accuracy of the obtained results.
