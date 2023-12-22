@@ -53,7 +53,7 @@ Subsequently, the integration is performed using the Wilson algorithm with an in
 
 This is a classic example of creating a temporal history of displacements to perform a finite element dynamic analysis.
 
-This example is set up in the script Example1.py.
+This example is set up in the script _Example1.py_.
 
 At the beginning of the file _Exemple1.py_, the necessary functions are imported:
 ```
@@ -96,3 +96,22 @@ The displacement history obtained from Orcaflex is compared to that derived from
 The temporal history presents an initial condition of acceleration, velocity, and displacement that are not equal to zero.
 The accelerogram is passed to the script as is, and initial conditions of velocity and displacement are set.
 For this example, the Runge-Kutta integration algorithm is used.
+
+This example is set up in the script _Example2.py_.
+
+At the beginning of the file _Exemple2.py_, the necessary functions are imported:
+```
+from integrate_module import integrate_rk4, baseline
+```
+And the parameters for integration are set:
+```
+Define the file path containing the accelerogram
+file_path = 'vessel_accelerogram.txt'
+
+Set the initial conditions:
+y0 = 2  # Displacement
+v0 = 2  # Velocity
+
+Set the desired time step for the output
+dt = 0.01
+```
