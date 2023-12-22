@@ -8,7 +8,7 @@ This Python script allows for the integration of an accelerogram to obtain the t
 * [Description](#description)
 * [Dependencies](#dependencies)
 * [Usage](#usage)
-* [Exemples](#exemples)
+* [Examples](#examples)
 
   
 ## Description
