@@ -29,6 +29,19 @@ Example 1: Integrating a seismic accelerogram sampled at 1/100 seconds into disp
 
 Example 2: Integrating an accelerogram derived from a dynamic analysis of a moored ship subjected to wind and waves, performed using Orcaflex. The displacement history derived from Orcaflex is compared to that derived from double integration executed with the script.
 
+## Dependencies
+To use this script, it is necessary to install the following libraries that are used:
+  * numpy
+  * scipy
+  * matplotlib
+
+To install them, you can use pip:
+```
+    pip install numpy
+    pip install scipy
+    pip install matplotlib
+```
+
 ## Usage
 
 The script consists of a main module named _integrate_module.py_ containing functions for performing double integration. The functions included are:
@@ -41,6 +54,8 @@ To use these functions, it's necessary to import them into the script performing
 ```
 from integrate_module import integrate_wilson, baseline
 ```
+Based on the chosen integration algorithm, it will be used in the execution; both will be utilized in the two provided examples.
+
 Two examples have been developed to test the script, which also serve as a reference for how to use it.
 
 ## Examples
@@ -110,8 +125,8 @@ Define the file path containing the accelerogram
 file_path = 'vessel_accelerogram.txt'
 
 Set the initial conditions:
-y0 = 2  # Displacement
-v0 = 2  # Velocity
+y0 = 0.021491332862909 # Displacement
+v0 = 0.0176782812923192 # Velocity
 
 Set the desired time step for the output
 dt = 0.01
