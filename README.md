@@ -63,6 +63,7 @@ The input file containing the accelerogram must be formatted as follows:
  * The first column should contain the time values.
  * The second column should contain the accelerations.
  * The separator should be a semicolon.
+
 The output will have the same unit of measurement as the input. Therefore, if the acceleration is in m/s^2, the displacement will be in meters.
 
 Two examples have been developed to test the script, which also serve as a reference for how to use it.
