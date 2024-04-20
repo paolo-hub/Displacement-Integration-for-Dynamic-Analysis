@@ -38,7 +38,7 @@ To use this script, it is necessary to install the following libraries that are 
   * matplotlib
 
 To install them, you can use pip:
-```
+```python
     pip install numpy
     pip install scipy
     pip install matplotlib
