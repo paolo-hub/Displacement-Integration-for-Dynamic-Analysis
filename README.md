@@ -53,7 +53,7 @@ The script consists of a main module named _integrate_module.py_ containing func
  * baseline: Performs a baseline function that linearly corrects the passed function while preserving the initial conditions.
 
 To use these functions, it's necessary to import them into the script performing the computation, for example:
-```
+```bash
 from integrate_module import integrate_wilson, baseline
 ```
 Based on the chosen integration algorithm, it will be used in the execution; both will be utilized in the two provided examples.
@@ -81,11 +81,11 @@ This is a classic example of creating a temporal history of displacements to per
 This example is set up in the script _Example1.py_.
 
 At the beginning of the file _Exemple1.py_, the necessary functions are imported:
-```
+```bash
 from integrate_module import integrate_wilson, baseline
 ```
 And the parameters for integration are set:
-```
+```bash
 Define the file path containing the accelerogram
 file_path = 'seismic_accelerogram.txt'
 
@@ -126,11 +126,11 @@ For this example, the Runge-Kutta integration algorithm is used.
 This example is set up in the script _Example2.py_.
 
 At the beginning of the file _Exemple2.py_, the necessary functions are imported:
-```
+```bash
 from integrate_module import integrate_rk4, baseline
 ```
 And the parameters for integration are set:
-```
+```bash
 Define the file path containing the accelerogram
 file_path = 'vessel_accelerogram.txt'
 
